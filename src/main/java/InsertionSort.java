@@ -18,7 +18,7 @@ public class InsertionSort {
     }
 
 
-    public void sort() {
+    public int[] sort() {
 
         Arrays.stream(randomArr).forEach(s -> System.out.print(s + ","));
 
@@ -34,7 +34,7 @@ public class InsertionSort {
         }
         System.out.println("------->>>");
         Arrays.stream(randomArr).forEach(s -> System.out.print(s + ","));
-
+        return randomArr;
     }
 
 
